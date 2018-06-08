@@ -31,14 +31,14 @@
                 </includes>
             </resource>
             <resource>
-                <targetPath>.</targetPath>
+                <targetPath>${basedir}/me/mcgrizzz/soundcontrolgui</targetPath>
                 <filtering>false</filtering>
                 <directory>${basedir}</directory>
                 <includes>
                     <include>*.css</include>
                     <include>*.png</include>
                 </includes>
-                <targetPath>/me/mcgrizzz/soundcontrolgui</targetPath>
+                
             </resource>
         </resources>
         <plugins>
