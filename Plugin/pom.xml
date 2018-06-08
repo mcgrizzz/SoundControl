@@ -36,7 +36,7 @@
             <scope>provided</scope>
        </dependency>
        <dependency>
-            <groupId>com.sk89q.worldedit</groupId>
+            <groupId>com.sk89q.worldguard</groupId>
             <artifactId>worldguard</artifactId>
             <version>6.1.1-SNAPSHOT</version>
             <scope>provided</scope>
