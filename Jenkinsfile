@@ -12,7 +12,7 @@ pipeline {
                 echo "PATH = ${PATH}"
                 echo "M2_HOME = ${M2_HOME}"
                 find ~/.m2/repository -name _maven.repositories -exec rm -v {} +;
-                find ~/.m2  -name "*.lastUpdated" -exec grep -q "Could not transfer" {} +; -print -exec rm {} +;
+                find ~/.m2  -name "*.lastUpdated" -exec grep -q "Could not transfer" {} +;
                 '''
             }
         }
