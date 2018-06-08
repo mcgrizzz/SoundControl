@@ -26,8 +26,9 @@ pipeline {
       stage('Artifact') {
         steps {
           archiveArtifacts '*/target/*.jar'
+          sh '''
           mvn -N help:effective-pom -Doutput=result.xml
-            
+          '''
             script {
               def pom = readMavenPom file: 'result.xml'
               sh " ~/workingDir/scripts/soundcontrol_gitrelease.sh ${pom.version} ${WORKSPACE}" 
