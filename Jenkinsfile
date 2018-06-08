@@ -29,7 +29,7 @@ pipeline {
             
             script {
               def pom = readMavenPom file: 'pom.xml'
-              sh " ~/workingDir/scripts/soundcontrol_gitrelease.sh ${pom.version} ${WORKSPACE}" 
+              sh " ~/workingDir/scripts/soundcontrol_gitrelease.sh ${pom.properties.global-version} ${WORKSPACE}" 
            }
           
         }
