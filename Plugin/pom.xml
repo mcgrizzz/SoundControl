@@ -11,17 +11,6 @@
   <name>SoundControl</name>
   <packaging>jar</packaging>
   
-  <repositories>
-        <repository>
-            <id>spigot</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-        </repository>
-        <repository>
-            <id>sk89q-repo</id>
-            <url>>http://maven.sk89q.com/repo/</url>
-        </repository>
-  </repositories>
-
   <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
