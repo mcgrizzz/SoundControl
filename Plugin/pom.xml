@@ -3,17 +3,13 @@
   <parent>
       <artifactId>parent</artifactId>
       <groupId>me.mcgrizzz.soundcontrol</groupId>
-      <version>1.1.8</version>
+      <version>${global-version}</version>
       <relativePath>../pom.xml</relativePath>
   </parent>
 
   <artifactId>Plugin</artifactId>
   <name>SoundControl</name>
   <packaging>jar</packaging>
-  
-  <properties>
-      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
   
   <dependencies>
        <dependency>
