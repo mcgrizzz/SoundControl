@@ -3,12 +3,12 @@
   
   <groupId>me.mcgrizzz.soundcontrol</groupId>
   <artifactId>parent</artifactId>
-  <version>${global-version}</version>
+  <version>1.1.8</version>
   <packaging>pom</packaging>
   <name>SoundControl Parent</name>
   
     <properties>
-   	   <global-version>1.1.8</global-version>
+   	   <global-version>${version}</global-version>
        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    </properties>
    
@@ -16,8 +16,6 @@
        <module>Plugin</module>
        <module>GUI</module>
    </modules>
-
- 
   
   <build>
         <defaultGoal>clean package</defaultGoal>
