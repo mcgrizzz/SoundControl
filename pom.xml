@@ -16,13 +16,6 @@
        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    </properties>
   
-  <repositories>
-        <repository>
-            <id>sk89q-repo</id>
-            <url>>http://maven.sk89q.com/repo/</url>
-        </repository>
-  </repositories>
- 
   <build>
         <defaultGoal>clean package</defaultGoal>
         <finalName>${project.name}</finalName>
