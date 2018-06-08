@@ -26,6 +26,11 @@ pipeline {
       stage('Artifact') {
         steps {
           archiveArtifacts '*/target/*.jar'
+            
+            script {
+              def pom = readMavenPom file: 'pom.xml'
+              sh " ~/workingDir/scripts/soundcontrol_gitrelease.sh ${pom.version} ${WORKSPACE}" 
+           }
           
         }
       }
