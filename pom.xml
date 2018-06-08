@@ -31,7 +31,7 @@
                 </includes>
             </resource>
             <resource>
-                <targetPath>${basedir}/me/mcgrizzz/soundcontrolgui</targetPath>
+                <targetPath>./me/mcgrizzz/soundcontrolgui</targetPath>
                 <filtering>false</filtering>
                 <directory>${basedir}</directory>
                 <includes>
