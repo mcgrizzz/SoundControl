@@ -28,9 +28,17 @@
                 <includes>
                     <include>*.yml</include>
                     <include>*.txt</include>
+                </includes>
+            </resource>
+            <resource>
+                <targetPath>.</targetPath>
+                <filtering>false</filtering>
+                <directory>${basedir}</directory>
+                <includes>
                     <include>*.css</include>
                     <include>*.png</include>
                 </includes>
+                <targetPath>/me/mcgrizzz/soundcontrolgui</targetPath>
             </resource>
         </resources>
         <plugins>
