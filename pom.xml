@@ -8,7 +8,7 @@
   <name>SoundControl Parent</name>
   
     <properties>
-   	   <global-version>${version}</global-version>
+   	   <global-version>${project.version}</global-version>
        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    </properties>
    
