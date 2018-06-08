@@ -1,4 +1,6 @@
-![SoundControl Banner](https://proxy.spigotmc.org/b8d19115ca992e32865ba93640a9bfeeb38e7b86?url=http%3A%2F%2Fi.imgur.com%2FfyqE50U.png)
+<p align="center">
+  <img width="504" height="360" src="https://proxy.spigotmc.org/b8d19115ca992e32865ba93640a9bfeeb38e7b86?url=http%3A%2F%2Fi.imgur.com%2FfyqE50U.png">
+</p>
 
 # SoundControl | [![Jenkins](http://ci.drepic.xyz/job/SoundControl/job/master/badge/icon)](http://ci.drepic.xyz/blue/organizations/jenkins/ProRecipes/activity)
 
